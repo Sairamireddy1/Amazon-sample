@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazon.FirstAutomation">
+      <class name="amazon.secondAutomation">
         <methods>
           <include name="test"/>
+          <include name="test3"/>
           <include name="test1"/>
+          <include name="testclose"/>
         </methods>
-      </class> <!-- amazon.FirstAutomation -->
+      </class> <!-- amazon.secondAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
